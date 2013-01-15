@@ -27,7 +27,7 @@ public class Demo1{
 			JVoiceXml myJVoiceXml = (JVoiceXml) myContext.lookup("JVoiceXml");
 			ConnectionInformation info = new BasicConnectionInformation("dummy", "jsapi10", "jsapi10");
 			Session session = myJVoiceXml.createSession(info);
-			URI uri = new URI("http://129.21.71.19:8080/TaskAssistant/hello.vxml");
+			URI uri = new URI("http://129.21.108.60:8080/TaskAssistant/hello.vxml");
 			session.call(uri);
 			session.waitSessionEnd();
 			session.hangup();
