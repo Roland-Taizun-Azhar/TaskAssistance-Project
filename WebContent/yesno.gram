@@ -1,0 +1,4 @@
+#JSFG V1.0	
+
+grammar yesno;
+public <yesno> = yes|no;
